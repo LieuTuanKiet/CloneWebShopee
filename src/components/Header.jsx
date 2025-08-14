@@ -1,3 +1,6 @@
+import ListItem from "./ListItem"
+import { itemsHeader as items } from "./data"
+
 export default function Header(){
     return(
         <header className=" bg-gradient-to-b from-primary to-[#ff7337] text-white text-sm">
@@ -119,14 +122,14 @@ export default function Header(){
                     </div>
                     <div>
                         <ul className="flex justify-between mt-2">
-                            <li><a className="cursor-pointer">Baby Tee Ôm Eo</a></li>
-                            <li><a className="cursor-pointer">Món Ăn Vặt</a></li>
-                            <li><a className="cursor-pointer">Giày Quai Hậu Nữ Đế Thấp</a></li>
-                            <li><a className="cursor-pointer">Kính Đẹp</a></li>
-                            <li><a className="cursor-pointer">Săn iPhone 14 Pro Max 1k</a></li>
-                            <li><a className="cursor-pointer">Son Romand Juicy 24</a></li>
-                            <li><a className="cursor-pointer">Dép</a></li>
-                            <li><a className="cursor-pointer">Gấu Bông To Giá Rẻ</a></li>
+                            {items.map((item,index) => (
+                                <ListItem 
+                                    key={index}
+                                    variant="header"
+                                    title={item.title}
+                                    location={item.location}
+                                />
+                            ))}
                         </ul>
                     </div>
                 </div>
