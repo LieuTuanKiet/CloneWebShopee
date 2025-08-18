@@ -3,7 +3,7 @@ import { itemsHeader as items } from "./data"
 
 export default function Header(){
     return(
-        <header className=" bg-gradient-to-b from-primary to-[#ff7337] text-white text-sm">
+        <header className=" bg-gradient-to-b from-primary to-[#ff7337] text-white text-sm h-full">
             <nav className="flex justify-between w-11/12 container mx-auto pt-2">
                 <ul className="flex w-1/2 gap-x-2">
                     <li className="pr-2 border-r-2 border-gray-300/50 cursor-pointer hover:text-white/70 duration-100"><a>Kênh Người Bán</a></li>
@@ -73,7 +73,7 @@ export default function Header(){
                 </ul>
             </nav>
             <div className="w-11/12 container mx-auto flex items-center gap-x-8">
-                <div>
+                <div className="cursor-pointer">
                     <svg viewBox="0 0 192 65" fill="currentColor" className="w-36 h-24 text-white"><g fillRule="evenodd"><path d="M35.6717403 44.953764c-.3333497 2.7510509-2.0003116 4.9543414-4.5823845 
                     6.0575984-1.4379707.6145919-3.36871.9463856-4.896954.8421628-2.3840266-.0911143-4.6237865-.6708937-6.6883352-1.7307424-.7375522-.3788551-1.8370513-1.1352759-2.6813095-1.8437757-.213839-.1790053-.239235-.2937577-.0977428-.4944671.0764015-.1151823.2172535-.3229831.5286218-.7791994.45158-.6616533.5079208-.7446018.5587128-.8221779.14448-.2217688.3792333-.2411091.6107855-.0588804.0243289.0189105.0243289.0189105.0426824.0333083.0379873.0294402.0379873.0294402.1276204.0990653.0907002.0706996.14448.1123887.166248.1287205 
                     2.2265285 1.7438508 4.8196989 2.7495466 7.4376251 2.8501162 3.6423042-.0496401 6.2615109-1.6873341 6.7308041-4.2020035.5160305-2.7675977-1.6565047-5.1582742-5.9070334-6.4908212-1.329344-.4166762-4.6895175-1.7616869-5.3090528-2.1250697-2.9094471-1.7071043-4.2697358-3.9430584-4.0763845-6.7048539.296216-3.8283059 
@@ -109,9 +109,9 @@ export default function Header(){
                     1.2547527 6.5186944 3.5630343 6.0571315 6.2864205-.4192725 2.4743234-3.0117991 4.1199394-6.6498372 4.2325647-2.6382344-.0549182-5.2963324-1.0217793-7.6043603-2.7562084-.0115337-.0083664-.0700567-.0519149-.1779185-.1323615-.1516472-.1130543-.1516472-.1130543-.1742875-.1300017-.4705335-.3247898-.7473431-.2977598-1.0346184.1302162-.0346012.0529875-.3919333.5963776-.5681431.8632459"></path></g>
                     </svg>
                 </div>
-                <div className="w-3/4">
+                <div className="flex flex-col">
                     <div className="relative">
-                        <input type="text" placeholder="Shopee bao ship 0Đ - Đăng ký ngay!" className="py-3 px-4 w-full" />
+                        <input type="text" placeholder="Shopee bao ship 0Đ - Đăng ký ngay!" className="py-3 px-4 text-black w-full" />
                         <button className="absolute right-2 top-1/2 -translate-y-1/2 bg-primary py-2 px-6 rounded-sm hover:bg-primary/70 duration-100">
                             <svg viewBox="0 0 19 19" fill="currentColor" className="h-4 w-4 text-white"><g fillRule="evenodd" stroke="none" strokeWidth="1"><g transform="translate(-1016 -32)"><g>
                             <g transform="translate(405 21)"><g transform="translate(611 11)"><path d="m8 16c4.418278 0 8-3.581722 8-8s-3.581722-8-8-8-8 
@@ -121,19 +121,20 @@ export default function Header(){
                         </button>
                     </div>
                     <div>
-                        <ul className="flex justify-between mt-2">
+                        <ul className="flex flex-wrap overflow-hidden gap-4 justify-between mt-2 h-4">
                             {items.map((item,index) => (
                                 <ListItem 
                                     key={index}
                                     variant="header"
                                     title={item.title}
                                     location={item.location}
+                                    type="normalLink"
                                 />
                             ))}
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div className="cursor-pointer">
                     <svg viewBox="0 0 26.6 25.6" fill="currentColor" className="w-8 h-8"><polyline points="2 1.7 5.5 1.7 
                     9.6 18.3 21.2 18.3 24.6 6.1 7 6.1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2.5"></polyline>
                     <circle cx="10.7" cy="23" r="2.2" stroke="none"></circle><circle cx="19.7" cy="23" r="2.2" stroke="none"></circle>

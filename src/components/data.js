@@ -22,6 +22,24 @@ import QR from '../assets/QR.png'
 import AS from '../assets/AppStore.png'
 import GP from '../assets/GooglePlay.png'
 import AG from '../assets/AppGallery.png'
+import Temp from '../assets/Temporary.png'
+import Sub from '../assets/Subscribed.png'
+import Ad1 from '../assets/Ads1.jpg'
+import Ad2 from '../assets/Ads2.png'
+import Ad3 from '../assets/Ads3.jpg'
+import Ad4 from '../assets/Ads4.jpg'
+import Ad5 from '../assets/Ads5.jpg'
+import Ad6 from '../assets/Ads6.jpg'
+import Ad7 from '../assets/Ads7.jpg'
+import Ad8 from '../assets/Ads8.jpg'
+import Ad9 from '../assets/Ads9.jpg'
+import Ad10 from '../assets/Ads10.jpg'
+import Voucher from '../assets/Vouchers.png'
+import HBS from '../assets/HandleByShopee.png'
+import FS from '../assets/FlashSale.png'
+import SS from '../assets/ShopeeStyles.png'
+import SR from '../assets/ShopeeRewards.png'
+import LC from '../assets/LoyalCustomers.png'
 
 export const itemsHeader = [
     {
@@ -49,7 +67,7 @@ export const itemsHeader = [
         "location": "/"
     },
     {
-        "title": "Dép",
+        "title": "Dép Quai Hau",
         "location": "/"
     },
     {
@@ -278,5 +296,105 @@ export const regionsFooter = [
     {
         "title": "Đài Loan",
         "location": "/"
+    },
+]
+
+export const extraInfoFooter = [
+    {
+        "title": "CHÍNH SÁCH BẢO MẬT",
+        "location": "/"
+    },
+    {
+        "title": "QUY CHẾ HOẠT ĐỘNG",
+        "location": "/"
+    },
+    {
+        "title": "CHÍNH SÁCH VẬN CHUYỂN",
+        "location": "/"
+    },
+    {
+        "title": "CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN",
+        "location": "/"
+    },
+]
+
+export const verifiedLogosFooter = [
+    {
+        "img": Sub,
+        "location": "/"
+    },
+    {
+        "img": Sub,
+        "location": "/"
+    },
+    {
+        "img": Temp,
+        "location": "/"
+    },
+]
+
+export const advertisement = [
+    {
+        "img": Ad1
+    },
+    {
+        "img": Ad2
+    },
+    {
+        "img": Ad3
+    },
+    {
+        "img": Ad4
+    },
+    {
+        "img": Ad5
+    },
+    {
+        "img": Ad6
+    },
+    {
+        "img": Ad7
+    },
+    {
+        "img": Ad8
+    },
+    {
+        "img": Ad9
+    },
+    {
+        "img": Ad10
+    },
+]
+
+export const advertisementLinks = [
+    {
+        "img": Voucher,
+        "location": "/",
+        "title": "Mã Giảm Giá"
+    },
+    {
+        "img": HBS,
+        "location": "/",
+        "title": "Xử Lý Bởi Shopee"
+    },
+    {
+        "img": FS,
+        "location": "/",
+        "title": "Deal Hot Giờ Vàng"
+    },
+    {
+        "img": SS,
+        "location": "/",
+        "title": "Shopee Style Voucher 30%"
+    },
+    {
+        "img": SR,
+        "location": "/",
+        "title": "Săn Ngay 100.000 Xu"
+    },
+    {
+        "img": LC,
+        "location": "/",
+        "title": "Khách Hàng Thân Thiết"
     },
 ]
