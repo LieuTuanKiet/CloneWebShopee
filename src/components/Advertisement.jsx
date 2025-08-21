@@ -28,6 +28,8 @@ export default function Advertisement(){
                                 key={index}
                                 type="imageTitleLink"
                                 variant="ad"
+                                classImg="max-w-[45px]"
+                                classTitle="pt-2 max-w-[100px]"
                                 img={link.img}
                                 location={link.location}
                                 title={link.title}

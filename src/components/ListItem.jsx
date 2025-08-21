@@ -9,7 +9,8 @@ export default function ListItem(props){
         footer4: "cursor-pointer px-8 border-r-2 border-gray-300",
         footer5: "cursor-pointer px-8",
         footer6: "flex gap-x-2 cursor-pointer hover:text-primary duration-100",
-        ad: "cursor-pointer flex flex-col justify-between items-center h-full w-[20%]",
+        ad: "cursor-pointer flex flex-col justify-between items-center h-full w-[20%] text-center",
+        topic: " flex flex-col justify-center items-center border-[1px] border-gray-100 w-[100vh] h-[100vh] max-w-[119px] max-h-[150px] hover:border-gray-300 cursor-pointer duration-100"
     };
 
    switch(props.type){
@@ -51,12 +52,12 @@ export default function ListItem(props){
         );
     case "imageTitleLink":
         return(
-            <li className={`${styles[props.variant]} `}><img src={props.img} className="w-[22%]"/>
-                <Link to={props.location} className="text-center w-[52%]">
+            <li className={`${styles[props.variant]} `}><img src={props.img} className={props.classImg}/>
+                <Link className={props.classTitle} to={props.location}>
                     {props.title}
                 </Link>
             </li>
-        )
+        );
    };
 
    /* Disabled because too complex if adding more code into this instead using switch case for a while before try to add OOP inside this project

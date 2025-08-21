@@ -40,6 +40,33 @@ import FS from '../assets/FlashSale.png'
 import SS from '../assets/ShopeeStyles.png'
 import SR from '../assets/ShopeeRewards.png'
 import LC from '../assets/LoyalCustomers.png'
+import Beauty from '../assets/Beauty.webp'
+import BO from '../assets/BooksOnline.webp'
+import Cameras from '../assets/Cameras.webp'
+import CC from '../assets/ChildrenClothes.webp'
+import Clean from '../assets/Clean.webp'
+import EF from '../assets/ElectronicFurnitures.webp'
+import Electronics from '../assets/Electronics.webp'
+import Furnitures from '../assets/Furnitures.webp'
+import Health from '../assets/Health.webp'
+import LD from '../assets/LaptopDevices.webp'
+import MO from '../assets/MarketOnline.webp'
+import MC from '../assets/MenClothes.webp'
+import MB from '../assets/MenBags.webp'
+import MS from '../assets/MenShoes.webp'
+import MP from '../assets/MobilePhones.webp'
+import MAB from '../assets/MomAndBaby.webp'
+import SAT from '../assets/SportAndTravel.webp'
+import TCP from '../assets/TakeCarePet.webp'
+import Tools from '../assets/Tools.webp'
+import Toys from '../assets/Toys.webp'
+import Vehicles from '../assets/Vehicles.webp'
+import VAS from '../assets/VouchersAndServices.webp'
+import Watch from '../assets/Watch.webp'
+import WB from '../assets/WomanBags.webp'
+import WA from '../assets/WomenAccessories.webp'
+import WC from '../assets/WomenClothes.webp'
+import WS from '../assets/WomenShoes.webp'
 
 export const itemsHeader = [
     {
@@ -396,5 +423,143 @@ export const advertisementLinks = [
         "img": LC,
         "location": "/",
         "title": "Khách Hàng Thân Thiết"
+    },
+]
+
+export const productTopics = [
+    {
+        "img": MC,
+        "location": "/",
+        "title": "Thời Trang Nam"
+    },
+    {
+        "img": WC,
+        "location": "/",
+        "title": "Thời Trang Nữ"
+    },
+    {
+        "img": MB,
+        "location": "/",
+        "title": "Điện Thoại & Phụ Kiện"
+    },
+    {
+        "img": MAB,
+        "location": "/",
+        "title": "Mẹ & Bé"
+    },
+    {
+        "img": Electronics,
+        "location": "/",
+        "title": "Thiết Bị Điện Tử"
+    },
+    {
+        "img": Furnitures,
+        "location": "/",
+        "title": "Nhà Cửa & Đời Sống"
+    },
+    {
+        "img": LD,
+        "location": "/",
+        "title": "Máy Tính & Laptop"
+    },
+    {
+        "img": Beauty,
+        "location": "/",
+        "title": "Sắc Đẹp"
+    },
+    {
+        "img": Cameras,
+        "location": "/",
+        "title": "Máy Ảnh & Máy Quay Phim"
+    },
+    {
+        "img": Health,
+        "location": "/",
+        "title": "Sức Khỏe"
+    },
+    {
+        "img": Watch,
+        "location": "/",
+        "title": "Đồng Hồ"
+    },
+    {
+        "img": WS,
+        "location": "/",
+        "title": "Giày Dép Nữ"
+    },
+    {
+        "img": MS,
+        "location": "/",
+        "title": "Giày Dép Nam"
+    },
+    {
+        "img": WB,
+        "location": "/",
+        "title": "Túi Ví Nữ"
+    },
+    {
+        "img": EF,
+        "location": "/",
+        "title": "Thiết Bị Điện Gia Dụng"
+    },
+    {
+        "img": WA,
+        "location": "/",
+        "title": "Phụ Kiện & Trang Sức Nữ"
+    },
+    {
+        "img": SAT,
+        "location": "/",
+        "title": "Thể Thao & Du Lịch"
+    },
+    {
+        "img": MO,
+        "location": "/",
+        "title": "Bách Hóa Online"
+    },
+    {
+        "img": Vehicles,
+        "location": "/",
+        "title": "Ô tô & Xe Máy & Xe Đạp"
+    },
+    {
+        "img": BO,
+        "location": "/",
+        "title": "Nhà Sách Online"
+    },
+    {
+        "img": MB,
+        "location": "/",
+        "title": "Balo & Túi Ví Nam"
+    },
+    {
+        "img": CC,
+        "location": "/",
+        "title": "Thời Trang Trẻ Em"
+    },
+    {
+        "img": Toys,
+        "location": "/",
+        "title": "Đồ Chơi"
+    },
+    {
+        "img": Clean,
+        "location": "/",
+        "title": "Giặt Giũ & Chăm Sóc Nhà Cửa"
+    },
+    {
+        "img": TCP,
+        "location": "/",
+        "title": "Chăm Sóc Thú Cưng"
+    },
+    {
+        "img": VAS,
+        "location": "/",
+        "title": "Voucher & Dịch Vụ"
+    },
+    {
+        "img": Tools,
+        "location": "/",
+        "title": "Dụng cụ và thiết bị tiện ích"
     },
 ]
