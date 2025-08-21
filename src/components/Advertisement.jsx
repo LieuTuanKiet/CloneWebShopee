@@ -9,10 +9,10 @@ export default function Advertisement(){
         <div className="h-full">
             <div className="py-8 w-11/12 container mx-auto">
                 <div className="flex gap-x-4 justify-center items-center">
-                    <div className="w-[65%] group">
+                    <div className="w-[65%] max-w-[800px] max-h-[245px] group">
                         <ImageSlider />
                     </div>
-                    <div className="w-[31%] flex flex-col gap-y-4">
+                    <div className="w-[31%] max-w-[360px] max-h-[245px] flex flex-col gap-y-4">
                         <div>
                             <img src={Ad1}/>
                         </div>
@@ -22,7 +22,7 @@ export default function Advertisement(){
                     </div>
                 </div>
                 <div>
-                    <ul className="flex text-sm pt-8">
+                    <ul className="flex text-sm pt-8 max-w-[1200px] mx-auto">
                         {advertisementLinks.map((link,index) => (
                             <ListItem 
                                 key={index}
