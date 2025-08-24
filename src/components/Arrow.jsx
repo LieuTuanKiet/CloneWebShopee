@@ -20,7 +20,7 @@ export function PrevArrow({onClick}){
     )
 }
 
-export function CatalogNextArrow({onClick,className}){
+export function NonInfNextArrow({onClick,className}){
     const disabled = className?.includes("slick-disabled");
     return(
         <button
@@ -32,7 +32,7 @@ export function CatalogNextArrow({onClick,className}){
     )
 }
 
-export function CatalogPrevArrow({onClick,className}){
+export function NonInfPrevArrow({onClick,className}){
     const disabled = className?.includes("slick-disabled");
     return(
         <button

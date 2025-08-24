@@ -10,7 +10,7 @@ export default function ListItem(props){
         footer5: "cursor-pointer px-8",
         footer6: "flex gap-x-2 cursor-pointer hover:text-primary duration-100",
         ad: "cursor-pointer flex flex-col justify-between items-center h-full w-[20%] text-center",
-        topic: " flex flex-col justify-center items-center border-[1px] border-gray-100 w-[100vh] h-[100vh] max-w-[119px] max-h-[150px] hover:border-gray-300 cursor-pointer duration-100"
+
     };
 
    switch(props.type){

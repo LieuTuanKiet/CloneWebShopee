@@ -7,7 +7,7 @@ import ListItem from "./ListItem";
 export default function Advertisement(){
     return(
         <div className="h-full">
-            <div className="py-8 w-11/12 container mx-auto">
+            <div className="py-8 w-11/12 container mx-auto pt-36">
                 <div className="flex gap-x-4 justify-center items-center">
                     <div className="w-[65%] max-w-[800px] max-h-[245px] group">
                         <ImageSlider />

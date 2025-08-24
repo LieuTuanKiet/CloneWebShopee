@@ -67,6 +67,37 @@ import WB from '../assets/WomanBags.webp'
 import WA from '../assets/WomenAccessories.webp'
 import WC from '../assets/WomenClothes.webp'
 import WS from '../assets/WomenShoes.webp'
+import FSI1 from '../assets/FSItem1.jpg'
+import FSI2 from '../assets/FSItem2.jpg'
+import FSI3 from '../assets/FSItem3.jpg'
+import FSI4 from '../assets/FSItem4.jpg'
+import FSI5 from '../assets/FSItem5.jpg'
+import FSI6 from '../assets/FSItem6.jpg'
+import FSI7 from '../assets/FSItem7.jpg'
+import FSI8 from '../assets/FSItem8.jpg'
+import FSI9 from '../assets/FSItem9.jpg'
+import FSI10 from '../assets/FSItem10.jpg'
+import FSI11 from '../assets/FSItem11.jpg'
+import FSI12 from '../assets/FSItem12.jpg'
+import FSI13 from '../assets/FSItem13.jpg'
+import FSI14 from '../assets/FSItem14.jpg'
+import FSI15 from '../assets/FSItem15.jpg'
+import FSI16 from '../assets/FSItem16.jpg'
+import Loreal from '../assets/Loreal.webp'
+import SD from '../assets/SkyDragon.webp'
+import LB from '../assets/LifeBoy.webp'
+import Cocoon from '../assets/Cocoon.webp'
+import Deli from '../assets/Deli.webp'
+import Vaseline from '../assets/Vaseline.webp'
+import Anessa from '../assets/Anessa.webp'
+import Omo from '../assets/Omo.webp'
+import Garnier from '../assets/Garnier.webp'
+import CM from '../assets/CoolMate.webp'
+import LRP from '../assets/LaRochePosay.webp'
+import CV from '../assets/CeraVe.webp'
+import Unicharm from '../assets/Unicharm.webp'
+import THTM from '../assets/THTrueMart.webp'
+import Elmich from '../assets/Elmich.webp'
 
 export const itemsHeader = [
     {
@@ -438,7 +469,7 @@ export const productTopics = [
         "title": "Thời Trang Nữ"
     },
     {
-        "img": MB,
+        "img": MP,
         "location": "/",
         "title": "Điện Thoại & Phụ Kiện"
     },
@@ -561,5 +592,182 @@ export const productTopics = [
         "img": Tools,
         "location": "/",
         "title": "Dụng cụ và thiết bị tiện ích"
+    },
+]
+
+export const flashSaleList= [
+    {
+        "img": FSI1,
+        "location": "/",
+        "price": "169.100",
+        "status": "ĐÃ BÁN 41",
+    },
+    {
+        "img": FSI2,
+        "location": "/",
+        "price": "464.500",
+        "status": "ĐANG BÁN CHẠY",
+    },
+    {
+        "img": FSI3,
+        "location": "/",
+        "price": "259.000",
+        "status": "ĐANG BÁN CHẠY",
+    },
+    {
+        "img": FSI4,
+        "location": "/",
+        "price": "1.736.000",
+        "status": "CHỈ CÒN 9",
+    },
+    {
+        "img": FSI5,
+        "location": "/",
+        "price": "1.005.000",
+        "status": "ĐÃ BÁN 13",
+    },
+    {
+        "img": FSI6,
+        "location": "/",
+        "price": "74.800",
+        "status": "ĐANG BÁN CHẠY",
+    },
+    {
+        "img": FSI7,
+        "location": "/",
+        "price": "407.700",
+        "status": "ĐANG BÁN CHẠY",
+    },
+    {
+        "img": FSI8,
+        "location": "/",
+        "price": "143.990",
+        "status": "ĐANG BÁN CHẠY",
+    },
+    {
+        "img": FSI9,
+        "location": "/",
+        "price": "187.000",
+        "status": "ĐANG BÁN CHẠY",
+    },
+    {
+        "img": FSI10,
+        "location": "/",
+        "price": "249.000",
+        "status": "ĐÃ BÁN 18",
+    },
+    {
+        "img": FSI11,
+        "location": "/",
+        "price": "88.000",
+        "status": "ĐANG BÁN CHẠY",
+    },
+    {
+        "img": FSI12,
+        "location": "/",
+        "price": "73.000",
+        "status": "ĐANG BÁN CHẠY",
+    },
+    {
+        "img": FSI13,
+        "location": "/",
+        "price": "51.408",
+        "status": "ĐANG BÁN CHẠY",
+    },
+    {
+        "img": FSI14,
+        "location": "/",
+        "price": "1.327.000",
+        "status": "ĐANG BÁN CHẠY",
+    },
+    {
+        "img": FSI15,
+        "location": "/",
+        "price": "103.000",
+        "status": "ĐANG BÁN CHẠY",
+    },
+    {
+        "img": FSI16,
+        "location": "/",
+        "price": "124.100",
+        "status": "ĐANG BÁN CHẠY",
+    },
+]
+
+export const shopeeMallProducts = [
+    {
+        "img": Loreal,
+        "title": "Ưu đãi đến 50%",
+        "location": "/"
+    },
+    {
+        "img": SD,
+        "title": "Giảm đến 50%",
+        "location": "/"
+    },
+    {
+        "img": LB,
+        "title": "Mua 1 tặng 1",
+        "location": "/"
+    },
+    {
+        "img": Cocoon,
+        "title": "Mua 1 tặng 1",
+        "location": "/"
+    },
+    {
+        "img": Deli,
+        "title": "Deli siêu sale",
+        "location": "/"
+    },
+    {
+        "img": Vaseline,
+        "title": "Mua 1 tặng 1",
+        "location": "/"
+    },
+    {
+        "img": Anessa,
+        "title": "Mua là có quà",
+        "location": "/"
+    },
+    {
+        "img": Omo,
+        "title": "Mua 1 được 2",
+        "location": "/"
+    },
+    {
+        "img": Garnier,
+        "title": "Mua là có quà",
+        "location": "/"
+    },
+    {
+        "img": CM,
+        "title": "Mua 1 tặng 1",
+        "location": "/"
+    },
+    {
+        "img": LRP,
+        "title": "Quà mọi đơn",
+        "location": "/"
+    },
+    {
+        "img": CV,
+        "title": "Mua 1 được 6",
+        "location": "/"
+    },
+    {
+        "img": Unicharm,
+        "title": "Mua là có quà",
+        "location": "/"
+    },
+    {
+        "img": THTM,
+        "title": "Giảm đến 20%",
+        "location": "/"
+    },
+    {
+        "img": Elmich,
+        "title": "Săn sale siêu hot",
+        "location": "/"
     },
 ]

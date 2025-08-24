@@ -2,7 +2,7 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { productTopics } from "./data";
-import { CatalogNextArrow, CatalogPrevArrow } from "./Arrow";
+import { NonInfNextArrow, NonInfPrevArrow } from "./Arrow";
 import { Link } from "react-router";
 
 export default function CatalogSlider(){
@@ -12,8 +12,8 @@ export default function CatalogSlider(){
         slidesPerRow: 1,
         slidesToScroll: 4,
         infinite:false,
-        nextArrow: <CatalogNextArrow />,
-        prevArrow: <CatalogPrevArrow />,
+        nextArrow: <NonInfNextArrow />,
+        prevArrow: <NonInfPrevArrow />,
     }
     return(
         <Slider {...settings} className="h-[300px] group">

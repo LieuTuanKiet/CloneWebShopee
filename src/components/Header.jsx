@@ -3,7 +3,7 @@ import { itemsHeader as items } from "./data"
 
 export default function Header(){
     return(
-        <header className=" bg-gradient-to-b from-primary to-[#ff7337] text-white text-sm h-full">
+        <header className="bg-gradient-to-b from-primary to-[#ff7337] text-white text-sm h-full max-h-[125px] w-screen fixed z-20">
             <nav className="flex justify-between w-11/12 container mx-auto pt-2">
                 <ul className="flex w-1/2 gap-x-2">
                     <li className="pr-2 border-r-2 border-gray-300/50 cursor-pointer hover:text-white/70 duration-100"><a>Kênh Người Bán</a></li>
@@ -16,7 +16,7 @@ export default function Header(){
                             6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 
                             8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z"/>
                             </svg>
-                        </a> 
+                        </a>
                         <a className="cursor-pointer">
                             <svg fill="currentColor" className="w-4 h-4 text-white" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 
