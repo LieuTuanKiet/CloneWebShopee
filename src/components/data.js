@@ -98,6 +98,24 @@ import CV from '../assets/CeraVe.webp'
 import Unicharm from '../assets/Unicharm.webp'
 import THTM from '../assets/THTrueMart.webp'
 import Elmich from '../assets/Elmich.webp'
+import TS1 from '../assets/TS1.jpg'
+import TS2 from '../assets/TS2.jpg'
+import TS3 from '../assets/TS3.jpg'
+import TS4 from '../assets/TS4.jpg'
+import TS5 from '../assets/TS5.jpg'
+import TS6 from '../assets/TS6.jpg'
+import TS7 from '../assets/TS7.jpg'
+import TS8 from '../assets/TS8.jpg'
+import TS9 from '../assets/TS9.jpg'
+import TS10 from '../assets/TS10.jpg'
+import TS11 from '../assets/TS11.jpg'
+import TS12 from '../assets/TS12.jpg'
+import TS13 from '../assets/TS13.jpg'
+import TS14 from '../assets/TS14.jpg'
+import TS15 from '../assets/TS15.jpg'
+import TS16 from '../assets/TS16.jpg'
+import TS17 from '../assets/TS17.jpg'
+import TS18 from '../assets/TS18.jpg'
 
 export const itemsHeader = [
     {
@@ -770,4 +788,115 @@ export const shopeeMallProducts = [
         "title": "Săn sale siêu hot",
         "location": "/"
     },
+]
+
+export const topSellProducts = [
+    {
+        "img": TS1,
+        "sold": "Bán 83k+ / tháng",
+        "title": "Áo Thun",
+        "location": "/"
+    },
+    {
+        "img": TS2,
+        "sold": "Bán 66k+ / tháng",
+        "title": "Áo Lót Nữ Không Gọng",
+        "location": "/"
+    },
+    {
+        "img": TS3,
+        "sold": "Bán 54k+ / tháng",
+        "title": "Bao Cao Su",
+        "location": "/"
+    },
+    {
+        "img": TS4,
+        "sold": "Bán 71k+ / tháng",
+        "title": "Áo Babydoll Nữ Tay Bèo",
+        "location": "/"
+    },
+    {
+        "img": TS5,
+        "sold": "Bán 47k+ / tháng",
+        "title": "Xốp Dán Tường Giả Gạch",
+        "location": "/"
+    },
+    {
+        "img": TS6,
+        "sold": "Bán 130k+ / tháng",
+        "title": "Quạt Mini Cầm Tay",
+        "location": "/"
+    },
+    {
+        "img": TS7,
+        "sold": "Bán 77k+ / tháng",
+        "title": "Bút Mực Gel",
+        "location": "/"
+    },
+    {
+        "img": TS8,
+        "sold": "Bán 90k+ / tháng",
+        "title": "Son Kem Lì Mịn Môi Romand",
+        "location": "/"
+    },
+    {
+        "img": TS9,
+        "sold": "Bán 56k+ / tháng",
+        "title": "Kẹp Tóc Càng Cua Đơn Giản Cho Nữ",
+        "location": "/"
+    },
+    {
+        "img": TS10,
+        "sold": "Bán 58k+ / tháng",
+        "title": "Bộ Chăn Ga Gối Cotton",
+        "location": "/"
+    },
+    {
+        "img": TS11,
+        "sold": "Bán 52k+ / tháng",
+        "title": "Quần Lót Nam Co Dãn",
+        "location": "/"
+    },
+    {
+        "img": TS12,
+        "sold": "Bán 59k+ / tháng",
+        "title": "Dép Đi Trong Nhà",
+        "location": "/"
+    },
+    {
+        "img": TS13,
+        "sold": "Bán 48k+ / tháng",
+        "title": "Bánh Tráng Trộn",
+        "location": "/"
+    },
+    {
+        "img": TS14,
+        "sold": "Bán 62k+ / tháng",
+        "title": "Dầu Gội Nguyên Xuân",
+        "location": "/"
+    },
+    {
+        "img": TS15,
+        "sold": "Bán 108k+ / tháng",
+        "title": "Sữa Tắm Lifebuoy",
+        "location": "/"
+    },
+    {
+        "img": TS16,
+        "sold": "Bán 49k+ / tháng",
+        "title": "Ô Dù",
+        "location": "/"
+    },
+    {
+        "img": TS17,
+        "sold": "Bán 54k+ / tháng",
+        "title": "Áo Thun Polo Nam Ngắn Tay",
+        "location": "/"
+    },
+    {
+        "img": TS18,
+        "sold": "Bán 78k+ / tháng",
+        "title": "Hộp Carton Đóng Hàng",
+        "location": "/"
+    }
 ]

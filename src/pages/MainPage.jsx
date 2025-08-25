@@ -4,6 +4,8 @@ import Advertisement from "../components/Advertisement";
 import Catalog from "../components/Catalog";
 import FlashSale from "../components/FlashSale";
 import ShopeeMall from "../components/ShopeeMall";
+import TopSell from "../components/TopSell";
+import Suggestion from "../components/Suggestion";
 
 export default function MainPage(){
     return(
@@ -13,6 +15,8 @@ export default function MainPage(){
             <Catalog />
             <FlashSale />
             <ShopeeMall />
+            <TopSell />
+            <Suggestion />
             <Footer />
         </>
     )
